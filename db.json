@@ -131,6 +131,36 @@
       "value": "2.46"
     }
   ],
+  "field-value": [
+    {
+      "field": "field-1",
+      "value": "24.34"
+    },
+    {
+      "field": "field-2",
+      "value": "10.49"
+    },
+    {
+      "field": "field-3",
+      "value": "83.24"
+    },
+    {
+      "field": "field-4",
+      "value": "42.29"
+    },
+    {
+      "field": "field-5",
+      "value": "-14.29"
+    },
+    {
+      "field": "field-6",
+      "value": "-40.84"
+    },
+    {
+      "field": "field-7",
+      "value": "-59.30"
+    }
+  ],
   "assert": {
     "cash": "12",
     "stock": "56",
