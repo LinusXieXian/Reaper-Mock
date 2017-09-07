@@ -38,7 +38,6 @@ Install Node & npm
 - `/api/fund/{code}/interest-rate-curve/variety`
 - `/api/fund/{code}/interest-rate-curve/ability`
 
-
 - `/api/manager/{managerId}`  
 - `/api/manager/{managerId}/ability`
 - `/api/manager/{managerId}/funds`
@@ -51,3 +50,9 @@ Install Node & npm
 
 - `/api/company/{companyId}/fund-performance`
 - `/api/company/{companyId}/manager-performance`
+- `/api/company/{companyId}/product-strategy`
+- `/api/company/{companyId}/asset-allocation`
+- `/api/company/{companyId}/style-attribution/profit`
+- `/api/company/{companyId}/style-attribution/risk`
+- `/api/company/{companyId}/industry-attribution/profit`
+- `/api/company/{companyId}/industry-attribution/risk`

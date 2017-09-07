@@ -41,5 +41,12 @@
   "/manager/:id": "/manager",
 
   "/company/:id/fund-performance": "/fund-performance",
-  "/company/:id/manager-performance": "/manager-performance"
+  "/company/:id/manager-performance": "/manager-performance",
+
+  "/company/{companyId}/product-strategy": "/field-value-pie",
+  "/company/{companyId}/asset-allocation": "/field-value-pie",
+  "/company/{companyId}/style-attribution/profit": "/field-value",
+  "/company/{companyId}/style-attribution/risk": "/field-value",
+  "/company/{companyId}/industry-attribution/profit": "/field-value",
+  "/company/{companyId}/industry-attribution/risk": "/field-value"
 }

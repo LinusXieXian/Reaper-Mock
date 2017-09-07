@@ -161,6 +161,28 @@
       "value": "-59.30"
     }
   ],
+  "field-value-pie": [
+    {
+      "field": "field-1",
+      "value": "14"
+    },
+    {
+      "field": "field-2",
+      "value": "10"
+    },
+    {
+      "field": "field-3",
+      "value": "33"
+    },
+    {
+      "field": "field-4",
+      "value": "41"
+    },
+    {
+      "field": "field-5",
+      "value": "2"
+    }
+  ],
   "assert": {
     "cash": "12",
     "stock": "56",
