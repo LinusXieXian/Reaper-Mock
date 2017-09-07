@@ -5,7 +5,7 @@
   "/fund/:id/unit-net-value": "/date-value",
   "/fund/:id/cumulative-net-value": "/date-value",
   "/fund/:id/rate?:request": "/rate",
-  "/fund/:id/current-assert": "/assert",
+  "/fund/:id/current-asset": "/asset",
   "/fund/:id/managers": "/fund-managers",
   "/fund/:id": "/fund",
 

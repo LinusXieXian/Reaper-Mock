@@ -186,7 +186,7 @@
       "value": 2
     }
   ],
-  "assert": {
+  "asset": {
     "cash": 12,
     "stock": 56,
     "bond": 22,

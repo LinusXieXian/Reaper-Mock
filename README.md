@@ -14,7 +14,7 @@ Install Node & npm
 - `/api/fund/{code}/unit-net-value`
 - `/api/fund/{code}/cumulative-net-value`
 - `/api/fund/{code}/rate?{query}`  
-- `/api/fund/{code}/current-assert`
+- `/api/fund/{code}/current-asset`
 - `/api/fund/{code}/managers`
 
 - `/api/fund/{code}/risk-trend`
