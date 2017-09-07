@@ -44,17 +44,20 @@
       "中高风险"
     ],
     "establishmentDate": "2001-12-18",
-    "scope": "51.09",
-    "unitNetValue": "1.1860",
-    "cumulativeNetValue": "3.5170",
-    "dailyRate": "0.08",
+    "scope": 51.09,
+    "assessNetValue": 1.1960,
+    "assessIncrease": 0.0100,
+    "assessDailyRate": 0.12,
+    "unitNetValue": 1.1860,
+    "cumulativeNetValue": 3.5170,
+    "dailyRate": 0.08,
     "rate": {
-      "oneMonth": "6.18",
-      "threeMonths": "8.81",
-      "sixMonths": "8.81",
-      "oneYear": "7.03",
-      "threeYears": "21.11",
-      "sinceFounded": "505.59"
+      "oneMonth": 6.18,
+      "threeMonths": 8.81,
+      "sixMonths": 8.81,
+      "oneYear": 7.03,
+      "threeYears": 21.11,
+      "sinceFounded": 505.59
     },
     "manager": [
       {
@@ -74,120 +77,120 @@
   "date-value": [
     {
       "date": "2017-04-01",
-      "value": "1.2345"
+      "value": 1.2345
     },
     {
       "date": "2017-04-02",
-      "value": "1.2583"
+      "value": 1.2583
     },
     {
       "date": "2017-04-03",
-      "value": "1.1843"
+      "value": 1.1843
     },
     {
       "date": "2017-04-04",
-      "value": "1.0423"
+      "value": 1.0423
     },
     {
       "date": "2017-04-05",
-      "value": "1.2014"
+      "value": 1.2014
     },
     {
       "date": "2017-04-06",
-      "value": "1.1052"
+      "value": 1.1052
     },
     {
       "date": "2017-04-07",
-      "value": "1.2483"
+      "value": 1.2483
     }
   ],
   "rate": [
     {
       "date": "2017-04-01",
-      "value": "0"
+      "value": 0
     },
     {
       "date": "2017-04-02",
-      "value": "1.23"
+      "value": 1.23
     },
     {
       "date": "2017-04-03",
-      "value": "2.54"
+      "value": 2.54
     },
     {
       "date": "2017-04-04",
-      "value": "-0.24"
+      "value": -0.24
     },
     {
       "date": "2017-04-05",
-      "value": "-1.89"
+      "value": -1.89
     },
     {
       "date": "2017-04-06",
-      "value": "1.42"
+      "value": 1.42
     },
     {
       "date": "2017-04-07",
-      "value": "2.46"
+      "value": 2.46
     }
   ],
   "field-value": [
     {
       "field": "field-1",
-      "value": "24.34"
+      "value": 24.34
     },
     {
       "field": "field-2",
-      "value": "10.49"
+      "value": 10.49
     },
     {
       "field": "field-3",
-      "value": "83.24"
+      "value": 83.24
     },
     {
       "field": "field-4",
-      "value": "42.29"
+      "value": 42.29
     },
     {
       "field": "field-5",
-      "value": "-14.29"
+      "value": -14.29
     },
     {
       "field": "field-6",
-      "value": "-40.84"
+      "value": -40.84
     },
     {
       "field": "field-7",
-      "value": "-59.30"
+      "value": -59.30
     }
   ],
   "field-value-pie": [
     {
       "field": "field-1",
-      "value": "14"
+      "value": 14
     },
     {
       "field": "field-2",
-      "value": "10"
+      "value": 10
     },
     {
       "field": "field-3",
-      "value": "33"
+      "value": 33
     },
     {
       "field": "field-4",
-      "value": "41"
+      "value": 41
     },
     {
       "field": "field-5",
-      "value": "2"
+      "value": 2
     }
   ],
   "assert": {
-    "cash": "12",
-    "stock": "56",
-    "bond": "22",
-    "other": "10"
+    "cash": 12,
+    "stock": 56,
+    "bond": 22,
+    "other": 10
   },
   "fund-managers": [
     {
@@ -195,16 +198,16 @@
       "name": "董阳阳",
       "startDate": "2015-01-07",
       "endDate": "至今",
-      "days": "927",
-      "returns": "24.67"
+      "days": 927,
+      "returns": 24.67
     },
     {
       "id": "12345678",
       "name": "许明利",
       "startDate": "2016-01-07",
       "endDate": "2016-06-19",
-      "days": "183",
-      "returns": "-14.67"
+      "days": 183,
+      "returns": -14.67
     }
   ],
   "manager": {
@@ -215,8 +218,8 @@
       "id": "12345678",
       "name": "华夏基金管理有限公司"
     },
-    "totalScope": "56.50",
-    "bestReturns": "65.83",
+    "totalScope": 56.50,
+    "bestReturns": 65.83,
     "introduction": "董阳阳先生,美国波士顿学院金融学硕士、工商管理学硕士。曾任中国国际金融有限公司投行业务部经理。2009年8月加入华夏基金管理有限公司,曾任研究员、基金经理助理、投资经理等,现任股票投资部总监,华夏蓝筹核心混合型证券投资基金(LOF)基金经理(2013年3月11日起任职)、华夏成长证券投资基金基金经理(2015年1月7日起任职)。"
   },
   "manager-ability": {
@@ -348,31 +351,31 @@
       [
         {
           "date": "2017-04-01",
-          "value": "0"
+          "value": 0
         },
         {
           "date": "2017-04-02",
-          "value": "1.23"
+          "value": 1.23
         },
         {
           "date": "2017-04-03",
-          "value": "2.54"
+          "value": 2.54
         },
         {
           "date": "2017-04-04",
-          "value": "-0.24"
+          "value": -0.24
         },
         {
           "date": "2017-04-05",
-          "value": "-1.89"
+          "value": -1.89
         },
         {
           "date": "2017-04-06",
-          "value": "1.42"
+          "value": 1.42
         },
         {
           "date": "2017-04-07",
-          "value": "2.46"
+          "value": 2.46
         }
       ]
     },
@@ -383,23 +386,23 @@
       [
         {
           "date": "2017-04-03",
-          "value": "0"
+          "value": 0
         },
         {
           "date": "2017-04-04",
-          "value": "-3.24"
+          "value": -3.24
         },
         {
           "date": "2017-04-05",
-          "value": "-1.23"
+          "value": -1.23
         },
         {
           "date": "2017-04-06",
-          "value": "1.84"
+          "value": 1.84
         },
         {
           "date": "2017-04-07",
-          "value": "2.12"
+          "value": 2.12
         }
       ]
     }
