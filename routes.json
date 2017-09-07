@@ -2,17 +2,22 @@
   "/api/": "/",
   "/fund/search?:request": "/funds",
 
-  "/fund/:id/unit-net-value": "/net-value",
-  "/fund/:id/cumulative-net-value": "/net-value",
-
+  "/fund/:id/unit-net-value": "/date-value",
+  "/fund/:id/cumulative-net-value": "/date-value",
   "/fund/:id/rate?:request": "/rate",
-
   "/fund/:id/current-assert": "/assert",
-
   "/fund/:id/managers": "/fund-managers",
-
   "/fund/:id": "/fund",
 
+  "/fund/{id}/risk-trend": "/date-value",
+  "/fund/{id}/daily-retracement": "/date-value",
+  "/fund/{id}/volatility": "/date-value",
+  "/fund/{id}/value-at-risk": "/date-value",
+  "/fund/{id}/downside-volatility": "/date-value",
+  "/fund/{id}/sharpe-index": "/date-value",
+  "/fund/{id}/treynor-index": "/date-value",
+  "/fund/{id}/jensen-index": "/date-value",
+  "/fund/{id}/information-ratio": "/date-value",
 
   "/manager/:id/ability": "/manager-ability",
   "/manager/:id/funds": "/manager-funds",
@@ -20,5 +25,10 @@
   "/manager/:id/fund-rate-trend": "/manager-rate-trend",
   "/manager/:id/fund-rank-trend": "/manager-rank-trend",
   "/manager/:id/fund-returns": "/manager-returns",
-  "/manager/:id": "/manager"
+  "/manager/:id/fund-performance": "/fund-performance",
+  "/manager/:id/manager-performance": "/manager-performance",
+  "/manager/:id": "/manager",
+
+  "/company/:id/fund-performance": "/fund-performance",
+  "/company/:id/manager-performance": "/manager-performance"
 }

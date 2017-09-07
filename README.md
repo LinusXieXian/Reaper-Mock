@@ -17,6 +17,16 @@ Install Node & npm
 - `/api/fund/{code}/current-assert`
 - `/api/fund/{code}/managers`
 
+- `/api/fund/{id}/risk-trend`
+- `/api/fund/{id}/daily-retracement`
+- `/api/fund/{id}/volatility`
+- `/api/fund/{id}/value-at-risk`
+- `/api/fund/{id}/downside-volatility`
+- `/api/fund/{id}/sharpe-index`
+- `/api/fund/{id}/treynor-index`
+- `/api/fund/{id}/jensen-index`
+- `/api/fund/{id}/information-ratio`
+
 - `/api/manager/{managerId}`  
 - `/api/manager/{managerId}/ability`
 - `/api/manager/{managerId}/funds`
@@ -24,3 +34,8 @@ Install Node & npm
 - `/api/manager/{managerId}/fund-rate-trend`
 - `/api/manager/{managerId}/fund-rank-trend`
 - `/api/manager/{managerId}/fund-returns`
+- `/api/manager/{managerId}/fund-performance`
+- `/api/manager/{managerId}/manager-performance`
+
+- `/api/company/{companyId}/fund-performance`
+- `/api/company/{companyId}/manager-performance`
