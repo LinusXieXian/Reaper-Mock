@@ -11,5 +11,8 @@
 
   "/fund/:id/managers": "/fund-managers",
 
-  "/fund/:id": "/fund"
+  "/fund/:id": "/fund",
+
+
+  "/manager/:id": "/manager"
 }
