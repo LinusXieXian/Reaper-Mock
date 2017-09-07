@@ -3,6 +3,8 @@ JSON Server Mock for Reaper.
 
 
 ### Start
+Install Node & npm
+`sudo npm install -g json-server`
 `json-server --watch db.json --routes routes.json`
 
 ### Api
