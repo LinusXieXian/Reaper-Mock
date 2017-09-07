@@ -14,5 +14,11 @@
   "/fund/:id": "/fund",
 
 
+  "/manager/:id/ability": "/manager-ability",
+  "/manager/:id/funds": "/manager-funds",
+  "/manager/:id/manager-fund-rank": "/manager-fund-rank",
+  "/manager/:id/fund-rate-trend": "/manager-rate-trend",
+  "/manager/:id/fund-rank-trend": "/manager-rank-trend",
+  "/manager/:id/fund-returns": "/manager-returns",
   "/manager/:id": "/manager"
 }

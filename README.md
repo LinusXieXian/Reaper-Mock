@@ -11,9 +11,16 @@ Install Node & npm
 
 - `/api/fund/search?{query}`
 - `/api/fund/{code}`
-- `/api/fund/{id}/unit-net-value`
-- `/api/fund/{id}/cumulative-net-value`
-- `/api/fund/{id}/rate?{query}`  
-- `/api/fund/{id}/current-assert`
-- `/api/fund/{id}/managers`
-- `/api/manager/{id}`  
+- `/api/fund/{code}/unit-net-value`
+- `/api/fund/{code}/cumulative-net-value`
+- `/api/fund/{code}/rate?{query}`  
+- `/api/fund/{code}/current-assert`
+- `/api/fund/{code}/managers`
+
+- `/api/manager/{managerId}`  
+- `/api/manager/{managerId}/ability`
+- `/api/manager/{managerId}/funds`
+- `/api/manager/{managerId}/fund-rank`
+- `/api/manager/{managerId}/fund-rate-trend`
+- `/api/manager/{managerId}/fund-rank-trend`
+- `/api/manager/{managerId}/fund-returns`
