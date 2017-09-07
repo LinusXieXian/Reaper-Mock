@@ -1,0 +1,158 @@
+{
+  "funds": {
+    "page": 1,
+    "size": 10,
+    "orderBy": "name",
+    "totalCount": 35,
+    "result": [
+      {
+        "code": "000001",
+        "name": "华夏成长",
+        "annualProfit": 1.23,
+        "volatility": 6.66,
+        "manager": [
+          {
+            "id": "12345678",
+            "name": "董阳阳"
+          },
+          {
+            "id": "12345678",
+            "name": "许明利"
+          }
+        ]
+      },
+      {
+        "code": "000003",
+        "name": "中海可转债A",
+        "annualProfit": 1.23,
+        "volatility": 6.66,
+        "manager": [
+          {
+            "id": "12345678",
+            "name": "江小震"
+          }
+        ]
+      }
+    ]
+  },
+  "fund": {
+    "code": "000001",
+    "name": "华夏成长",
+    "shortname": "华夏成长",
+    "type": [
+      "混合型",
+      "中高风险"
+    ],
+    "establishmentDate": "2001-12-18",
+    "scope": "51.09",
+    "unitNetValue": "1.1860",
+    "cumulativeNetValue": "3.5170",
+    "dailyRate": "0.08",
+    "rate": {
+      "oneMonth": "6.18",
+      "threeMonths": "8.81",
+      "sixMonths": "8.81",
+      "oneYear": "7.03",
+      "threeYears": "21.11",
+      "sinceFounded": "505.59"
+    },
+    "manager": [
+      {
+        "id": "12345678",
+        "name": "董阳阳"
+      },
+      {
+        "id": "12345679",
+        "name": "许明利"
+      }
+    ],
+    "company": {
+      "id": "12345678",
+      "name": "华夏基金"
+    }
+  },
+  "net-value": [
+    {
+      "date": "2017-04-01",
+      "value": "1.2345"
+    },
+    {
+      "date": "2017-04-02",
+      "value": "1.2583"
+    },
+    {
+      "date": "2017-04-03",
+      "value": "1.1843"
+    },
+    {
+      "date": "2017-04-04",
+      "value": "1.0423"
+    },
+    {
+      "date": "2017-04-05",
+      "value": "1.2014"
+    },
+    {
+      "date": "2017-04-06",
+      "value": "1.1052"
+    },
+    {
+      "date": "2017-04-07",
+      "value": "1.2483"
+    }
+  ],
+  "rate": [
+    {
+      "date": "2017-04-01",
+      "value": "0"
+    },
+    {
+      "date": "2017-04-02",
+      "value": "1.23"
+    },
+    {
+      "date": "2017-04-03",
+      "value": "2.54"
+    },
+    {
+      "date": "2017-04-04",
+      "value": "-0.24"
+    },
+    {
+      "date": "2017-04-05",
+      "value": "-1.89"
+    },
+    {
+      "date": "2017-04-06",
+      "value": "1.42"
+    },
+    {
+      "date": "2017-04-07",
+      "value": "2.46"
+    }
+  ],
+  "assert": {
+    "cash": "12",
+    "stock": "56",
+    "bond": "22",
+    "other": "10"
+  },
+  "fund-managers":[
+    {
+      "id": "12345678",
+      "name": "董阳阳",
+      "startDate": "2015-01-07",
+      "endDate": "至今",
+      "days": "927",
+      "returns": "24.67"
+    },
+    {
+      "id": "12345678",
+      "name": "许明利",
+      "startDate": "2016-01-07",
+      "endDate": "2016-06-19",
+      "days": "183",
+      "returns": "-14.67"
+    }
+  ]
+}

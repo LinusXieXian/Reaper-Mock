@@ -1,0 +1,15 @@
+{
+  "/api/": "/",
+  "/fund/search?:request": "/funds",
+
+  "/fund/:id/unit-net-value": "/net-value",
+  "/fund/:id/cumulative-net-value": "/net-value",
+
+  "/fund/:id/rate?:request": "/rate",
+
+  "/fund/:id/current-assert": "/assert",
+
+  "/fund/:id/managers": "/fund-managers",
+
+  "/fund/:id": "/fund"
+}
