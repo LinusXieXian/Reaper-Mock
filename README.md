@@ -18,6 +18,8 @@ Install Node & npm
 - `/api/fund/{code}/rate?{query}`  
 - `/api/fund/{code}/current-asset`
 - `/api/fund/{code}/managers`
+- `/api/fund/{code}/manager`
+- `/api/fund/{code}/company`
 
 - `/api/fund/{code}/risk-trend`
 - `/api/fund/{code}/daily-retracement`

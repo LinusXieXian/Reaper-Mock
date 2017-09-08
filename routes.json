@@ -7,6 +7,8 @@
   "/api/fund/:id/rate?:request": "/rate",
   "/api/fund/:id/current-asset": "/asset",
   "/api/fund/:id/managers": "/fund-managers",
+  "/api/fund/{code}/manager":"/fund-manager",
+  "/api/fund/{code}/company": "/fund-company",
   "/api/fund/:id": "/fund",
 
   "/api/fund/:id/risk-trend": "/date-value",
@@ -43,10 +45,10 @@
   "/api/company/:id/fund-performance": "/fund-performance",
   "/api/company/:id/manager-performance": "/manager-performance",
 
-  "/api/company/{companyId}/product-strategy": "/field-value-pie",
-  "/api/company/{companyId}/asset-allocation": "/field-value-pie",
-  "/api/company/{companyId}/style-attribution/profit": "/field-value",
-  "/api/company/{companyId}/style-attribution/risk": "/field-value",
-  "/api/company/{companyId}/industry-attribution/profit": "/field-value",
-  "/api/company/{companyId}/industry-attribution/risk": "/field-value"
+  "/api/company/:id/product-strategy": "/field-value-pie",
+  "/api/company/:id/asset-allocation": "/field-value-pie",
+  "/api/company/:id/style-attribution/profit": "/field-value",
+  "/api/company/:id/style-attribution/risk": "/field-value",
+  "/api/company/:id/industry-attribution/profit": "/field-value",
+  "/api/company/:id/industry-attribution/risk": "/field-value"
 }
