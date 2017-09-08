@@ -187,7 +187,7 @@
     }
   ],
   "asset": {
-    "cash": 12,
+    "bank": 12,
     "stock": 56,
     "bond": 22,
     "other": 10
@@ -261,94 +261,81 @@
     {
       "id": "000001",
       "name": "华夏基金",
-      "month": 1,
-      "rank": 83,
-      "total": 530
+      "data": [
+        {
+          "month": 1,
+          "rank": 83,
+          "total": 530
+        },
+        { "month": 3,
+          "rank": 63,
+          "total": 523
+        },
+        {
+          "month": 6,
+          "rank": 58,
+          "total": 537
+        },
+        {
+          "month": 12,
+          "rank": 42,
+          "total": 552
+        },
+        {
+          "month": 24,
+          "rank": 21,
+          "total": 549
+        },
+        {
+          "month": 36,
+          "rank": 12,
+          "total": 542
+        }
+      ]
     },
     {
       "id": "160311",
       "name": "华夏蓝筹",
-      "month": 1,
-      "rank": 33,
-      "total": 530
-    },
-    {
-      "id": "000001",
-      "name": "华夏基金",
-      "month": 3,
-      "rank": 63,
-      "total": 523
-    },
-    {
-      "id": "160311",
-      "name": "华夏蓝筹",
-      "month": 3,
-      "rank": 43,
-      "total": 523
-    },
-    {
-      "id": "000001",
-      "name": "华夏基金",
-      "month": 6,
-      "rank": 58,
-      "total": 537
-    },
-    {
-      "id": "160311",
-      "name": "华夏蓝筹",
-      "month": 6,
-      "rank": 48,
-      "total": 537
-    },
-    {
-      "id": "000001",
-      "name": "华夏基金",
-      "month": 12,
-      "rank": 42,
-      "total": 552
-    },
-    {
-      "id": "160311",
-      "name": "华夏蓝筹",
-      "month": 12,
-      "rank": 78,
-      "total": 552
-    },
-    {
-      "id": "000001",
-      "name": "华夏基金",
-      "month": 24,
-      "rank": 21,
-      "total": 549
-    },
-    {
-      "id": "160311",
-      "name": "华夏蓝筹",
-      "month": 24,
-      "rank": 69,
-      "total": 549
-    },
-    {
-      "id": "000001",
-      "name": "华夏基金",
-      "month": 36,
-      "rank": 12,
-      "total": 542
-    },
-    {
-      "id": "160311",
-      "name": "华夏蓝筹",
-      "month": 36,
-      "rank": 83,
-      "total": 542
+      "data": [
+        {
+          "month": 1,
+          "rank": 33,
+          "total": 530
+        },
+        {
+          "month": 3,
+          "rank": 43,
+          "total": 523
+        },
+        {
+          "month": 6,
+          "rank": 48,
+          "total": 537
+        },
+        {
+          "month": 12,
+          "rank": 78,
+          "total": 552
+        },
+        {
+          "month": 24,
+          "rank": 69,
+          "total": 549
+        },
+        {
+          "month": 36,
+          "rank": 83,
+          "total": 542
+        }
+
+      ]
     }
   ],
   "manager-rate-trend": [
     {
       "id": "000001",
       "name": "华夏基金",
-      "data":
-      [
+      "data": [
         {
           "date": "2017-04-01",
           "value": 0
@@ -382,8 +369,7 @@
     {
       "id": "160311",
       "name": "华夏蓝筹",
-      "data":
-      [
+      "data": [
         {
           "date": "2017-04-03",
           "value": 0
@@ -411,8 +397,7 @@
     {
       "id": "000001",
       "name": "华夏基金",
-      "data":
-      [
+      "data": [
         {
           "date": "2017-04-01",
           "rank": 84,
