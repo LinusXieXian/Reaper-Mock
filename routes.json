@@ -7,8 +7,9 @@
   "/api/fund/:id/rate?:request": "/rate",
   "/api/fund/:id/current-asset": "/asset",
   "/api/fund/:id/managers": "/fund-managers",
-  "/api/fund/{code}/manager":"/fund-manager",
-  "/api/fund/{code}/company": "/fund-company",
+  "/api/fund/:id/manager":"/fund-manager",
+  "/api/fund/:id/company": "/fund-company",
+  "/api/fund/:id/name": "/fund-name",
   "/api/fund/:id": "/fund",
 
   "/api/fund/:id/risk-trend": "/date-value",

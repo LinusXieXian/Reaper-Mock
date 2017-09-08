@@ -13,6 +13,7 @@ Install Node & npm
 
 - `/api/fund/search?{query}`
 - `/api/fund/{code}`
+- `/api/fund/{code}/name`
 - `/api/fund/{code}/unit-net-value`
 - `/api/fund/{code}/cumulative-net-value`
 - `/api/fund/{code}/rate?{query}`  
