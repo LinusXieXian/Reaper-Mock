@@ -41,6 +41,7 @@
   "/api/manager/:id/fund-returns": "/manager-returns",
   "/api/manager/:id/fund-performance": "/fund-performance",
   "/api/manager/:id/manager-performance": "/manager-performance",
+  "/api/manager/:id/social-network": "/network",
   "/api/manager/:id": "/manager",
 
   "/api/company/:id/fund-performance": "/fund-performance",
@@ -51,5 +52,7 @@
   "/api/company/:id/style-attribution/profit": "/field-value",
   "/api/company/:id/style-attribution/risk": "/field-value",
   "/api/company/:id/industry-attribution/profit": "/field-value",
-  "/api/company/:id/industry-attribution/risk": "/field-value"
+  "/api/company/:id/industry-attribution/risk": "/field-value",
+
+  "/api/combination": "/combination"
 }
