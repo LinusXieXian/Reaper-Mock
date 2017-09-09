@@ -35,7 +35,7 @@
 
   "/api/manager/:id/ability": "/manager-ability",
   "/api/manager/:id/funds": "/manager-funds",
-  "/api/manager/:id/manager-fund-rank": "/manager-fund-rank",
+  "/api/manager/:id/fund-rank": "/manager-fund-rank",
   "/api/manager/:id/fund-rate-trend": "/manager-rate-trend",
   "/api/manager/:id/fund-rank-trend": "/manager-rank-trend",
   "/api/manager/:id/fund-returns": "/manager-returns",
