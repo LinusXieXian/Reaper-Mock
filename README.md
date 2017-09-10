@@ -31,17 +31,17 @@ Install Node & npm
 - `/api/fund/{code}/treynor-index`
 - `/api/fund/{code}/jensen-index`
 - `/api/fund/{code}/information-ratio`
+- `/api/fund/{code}/performance-index`
 
-- `/api/fund/{code}/performance-attribution/allocation`
-- `/api/fund/{code}/performance-attribution/management`
 - `/api/fund/{code}/style-attribution/profit`
 - `/api/fund/{code}/style-attribution/risk`
 - `/api/fund/{code}/industry-attribution/profit`
 - `/api/fund/{code}/industry-attribution/risk`
 - `/api/fund/{code}/style-stability/profit`
 - `/api/fund/{code}/style-stability/risk`
-- `/api/fund/{code}/interest-rate-curve/variety`
-- `/api/fund/{code}/interest-rate-curve/ability`
+- `/api/fund/{code}/variety-attribution`
+- `/api/fund/{code}/brison-attribution/stock`
+- `/api/fund/{code}/brison-attribution/bond`
 
 - `/api/manager/{managerId}`  
 - `/api/manager/{managerId}/ability`
