@@ -37,7 +37,7 @@
   "/api/fund/:id/fund-performance": "/fund-performance",
   "/api/fund/:id/manager-performance": "/manager-performance",
   "/api/fund/:id/position-network": "/network",
-  "/api/fund/:id/public-opinion": "public-opinion",
+  "/api/fund/:id/public-opinion": "/public-opinion",
 
   "/api/manager/:id/ability": "/manager-ability",
   "/api/manager/:id/funds": "/manager-funds",
