@@ -21,7 +21,7 @@
   "/api/fund/:id/treynor-index": "/date-value",
   "/api/fund/:id/jensen-index": "/date-value",
   "/api/fund/:id/information-ratio": "/date-value",
-  "/api/fund/:id/performance-index": "/date-value",
+  "/api/fund/:id/performance-index": "/performance-index",
 
   "/api/fund/:id/style-attribution/profit": "/field-value",
   "/api/fund/:id/style-attribution/risk": "/field-value",
@@ -30,14 +30,14 @@
   "/api/fund/:id/style-stability/profit": "/field-value",
   "/api/fund/:id/style-stability/risk": "/field-value",
   "/api/fund/:id/variety-attribution": "/field-value",
-  "/api/fund/:id/interest-rate-curve/ability": "/field-value",
   "/api/fund/:id/brison-attribution/stock": "/field-value",
   "/api/fund/:id/brison-attribution/bond": "/field-value",
   "/api/fund/:id/choose-time": "/data-field-value",
   "/api/fund/:id/choose-stock": "/data-field-value",
-  "/api/fund/:id/fund-performance":"/fund-performance",
-  "/api/fund/:id/manager-performance":"/manager-performance",
-
+  "/api/fund/:id/fund-performance": "/fund-performance",
+  "/api/fund/:id/manager-performance": "/manager-performance",
+  "/api/fund/:id/position-network": "/network",
+  "/api/fund/:id/public-opinion": "public-opinion",
 
   "/api/manager/:id/ability": "/manager-ability",
   "/api/manager/:id/funds": "/manager-funds",

@@ -44,7 +44,6 @@
       "中高风险"
     ],
     "establishmentDate": "2001-12-18",
-    "cumulativeDays": "3年又40天",
     "scope": 51.09,
     "assessNetValue": 1.1960,
     "assessIncrease": 0.0100,
@@ -258,6 +257,86 @@
       ]
     }
   ],
+  "performance-index": {
+    "sustainabilityIndex": 43.53,
+    "loseDayRatio": 2.59,
+    "winDayRatio": 0.48,
+  },
+  "public-opinion": [
+    {
+      "date": "第1周",
+      "quantity": [
+        {
+          "field": "好",
+          "value": 124
+        },
+        {
+          "field": "中",
+          "value": 84
+        },
+        {
+          "field": "坏",
+          "value": 28
+        }
+      ],
+      "index": 24.12
+    },
+    {
+      "date": "第2周",
+      "quantity": [
+        {
+          "field": "好",
+          "value": 74
+        },
+        {
+          "field": "中",
+          "value": 54
+        },
+        {
+          "field": "坏",
+          "value": 48
+        }
+      ],
+      "index": 12.35
+    },
+    {
+      "date": "第3周",
+      "quantity": [
+        {
+          "field": "好",
+          "value": 38
+        },
+        {
+          "field": "中",
+          "value": 93
+        },
+        {
+          "field": "坏",
+          "value": 64
+        }
+      ],
+      "index": 58.12
+    },
+    {
+      "date": "第4周",
+      "quantity": [
+        {
+          "field": "好",
+          "value": 138
+        },
+        {
+          "field": "中",
+          "value": 23
+        },
+        {
+          "field": "坏",
+          "value": 48
+        }
+      ],
+      "index": 73.59
+    }
+  ]
+,
   "asset": {
     "bank": 12,
     "stock": 56,
@@ -286,6 +365,7 @@
     "id": "12345678",
     "name": "董阳阳",
     "appointedDate": "2013-03-11",
+    "cumulativeDays": "3年又40天",
     "company": {
       "id": "12345678",
       "name": "华夏基金管理有限公司"
@@ -769,14 +849,14 @@
       "name": "组合 1",
       "cumulativeProfit": 24.12,
       "annualProfit": 6.66,
-      "maxRetracement": 1.23
+      "correlationCoefficient": 1.23
     },
     {
       "id": "1235",
       "name": "组合 2",
       "cumulativeProfit": 24.12,
       "annualProfit": 6.66,
-      "maxRetracement": 1.23
+      "correlationCoefficient": 1.23
     }
   ]
 }

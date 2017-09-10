@@ -46,6 +46,8 @@ Install Node & npm
 - `/api/fund/{code}/choose-stock`
 - `/api/fund/{code}/fund-performance`
 - `/api/fund/{code}/manager-performance`
+- `/api/fund/{code}/public-opinion`
+- `/api/fund/{code}/position-network`
 
 - `/api/manager/{managerId}`  
 - `/api/manager/{managerId}/ability`
