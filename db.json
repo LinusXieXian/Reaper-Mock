@@ -260,22 +260,22 @@
   "performance-index": {
     "sustainabilityIndex": 43.53,
     "loseDayRatio": 2.59,
-    "winDayRatio": 0.48,
+    "winDayRatio": 0.48
   },
   "public-opinion": [
     {
       "date": "第1周",
       "quantity": [
         {
-          "field": "好",
+          "field": "看好",
           "value": 124
         },
         {
-          "field": "中",
+          "field": "中立",
           "value": 84
         },
         {
-          "field": "坏",
+          "field": "看空",
           "value": 28
         }
       ],
@@ -285,15 +285,15 @@
       "date": "第2周",
       "quantity": [
         {
-          "field": "好",
+          "field": "看好",
           "value": 74
         },
         {
-          "field": "中",
+          "field": "中立",
           "value": 54
         },
         {
-          "field": "坏",
+          "field": "看空",
           "value": 48
         }
       ],
@@ -303,15 +303,15 @@
       "date": "第3周",
       "quantity": [
         {
-          "field": "好",
+          "field": "看好",
           "value": 38
         },
         {
-          "field": "中",
+          "field": "中立",
           "value": 93
         },
         {
-          "field": "坏",
+          "field": "看空",
           "value": 64
         }
       ],
@@ -321,15 +321,15 @@
       "date": "第4周",
       "quantity": [
         {
-          "field": "好",
+          "field": "看好",
           "value": 138
         },
         {
-          "field": "中",
+          "field": "中立",
           "value": 23
         },
         {
-          "field": "坏",
+          "field": "看空",
           "value": 48
         }
       ],
