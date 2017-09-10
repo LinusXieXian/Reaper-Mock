@@ -33,6 +33,11 @@
   "/api/fund/:id/interest-rate-curve/ability": "/field-value",
   "/api/fund/:id/brison-attribution/stock": "/field-value",
   "/api/fund/:id/brison-attribution/bond": "/field-value",
+  "/api/fund/:id/choose-time": "/data-field-value",
+  "/api/fund/:id/choose-stock": "/data-field-value",
+  "/api/fund/:id/fund-performance":"/fund-performance",
+  "/api/fund/:id/manager-performance":"/manager-performance",
+
 
   "/api/manager/:id/ability": "/manager-ability",
   "/api/manager/:id/funds": "/manager-funds",
