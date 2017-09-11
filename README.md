@@ -70,3 +70,4 @@ Install Node & npm
 - `/api/company/{companyId}/industry-attribution/risk`
 
 - `/api/combination`
+- `/api/combination/{combinationId}/backtest`

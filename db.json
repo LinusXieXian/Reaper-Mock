@@ -335,8 +335,7 @@
       ],
       "index": 73.59
     }
-  ]
-,
+  ],
   "asset": {
     "bank": 12,
     "stock": 56,
@@ -847,16 +846,490 @@
     {
       "id": "1234",
       "name": "组合 1",
-      "cumulativeProfit": 24.12,
+      "newProfit": 24.12,
       "annualProfit": 6.66,
       "correlationCoefficient": 1.23
     },
     {
       "id": "1235",
       "name": "组合 2",
-      "cumulativeProfit": 24.12,
+      "newProfit": 24.12,
       "annualProfit": 6.66,
       "correlationCoefficient": 1.23
     }
-  ]
+  ],
+  "combination-report": {
+    "startDate": "2017-06-30",
+    "endDate": "2017-07-31",
+    "baseIndex": "沪深300",
+    "score": 94,
+    "transcendQuantity": 481,
+    "rank": 12,
+    "combination": [
+      {
+        "code": "000001",
+        "name": "华夏成长",
+        "weight": "20",
+        "positionRatio": "1.24"
+      },
+      {
+        "code": "000003",
+        "name": "不知道名字",
+        "weight": "80",
+        "positionRatio": "0.48"
+      }
+    ],
+    "investmentGoal": "高风险高收益",
+    "intervalAnnualProfit": 12.32,
+    "cumulativeProfit": 24.51,
+    "finalNetValue": 1.2947,
+    "maxRetracement": 24.12,
+    "sharpeRatio": 1.24,
+    "volatility": 1.45,
+    "mainFactors": [
+      "beta",
+      "市值",
+      "111"
+    ],
+    "totalProfitRate": {
+      "combination": 23.34,
+      "baseIndex": 52.35
+    },
+    "overProfitRate": {
+      "combination": 23.34,
+      "baseIndex": 52.35
+    },
+    "annualProfit": {
+      "combination": 23.34,
+      "baseIndex": 52.35
+    },
+    "maxMonthProfit": {
+      "combination": 23.34,
+      "baseIndex": 52.35
+    },
+    "profitDaysRatio": {
+      "combination": 23.34,
+      "baseIndex": 52.35
+    },
+    "maxDayDown": 12.41,
+    "maxDownDays": 21,
+    "annualVolatility": 41.241,
+    "beta": 21.63,
+    "var": 54.24,
+    "averageCorrelationCoefficient": 52.23,
+    "cumulativeNetValueTrend": {
+      "fund": [
+        {
+          "date": "2017-04-01",
+          "value": 0
+        },
+        {
+          "date": "2017-04-02",
+          "value": 1.23
+        },
+        {
+          "date": "2017-04-03",
+          "value": 2.54
+        },
+        {
+          "date": "2017-04-04",
+          "value": -0.24
+        },
+        {
+          "date": "2017-04-05",
+          "value": -1.89
+        },
+        {
+          "date": "2017-04-06",
+          "value": 1.42
+        },
+        {
+          "date": "2017-04-07",
+          "value": 2.46
+        }
+      ],
+      "base": [
+        {
+          "date": "2017-04-01",
+          "value": 0
+        },
+        {
+          "date": "2017-04-02",
+          "value": 5.23
+        },
+        {
+          "date": "2017-04-03",
+          "value": -1.54
+        },
+        {
+          "date": "2017-04-04",
+          "value": 2.24
+        },
+        {
+          "date": "2017-04-05",
+          "value": -2.89
+        },
+        {
+          "date": "2017-04-06",
+          "value": -1.42
+        },
+        {
+          "date": "2017-04-07",
+          "value": 3.46
+        }
+      ]
+    },
+    "profitRateTrend": {
+      "fund": [
+        {
+          "date": "2017-04-01",
+          "value": 0
+        },
+        {
+          "date": "2017-04-02",
+          "value": 1.23
+        },
+        {
+          "date": "2017-04-03",
+          "value": 2.54
+        },
+        {
+          "date": "2017-04-04",
+          "value": -0.24
+        },
+        {
+          "date": "2017-04-05",
+          "value": -1.89
+        },
+        {
+          "date": "2017-04-06",
+          "value": 1.42
+        },
+        {
+          "date": "2017-04-07",
+          "value": 2.46
+        }
+      ],
+      "base": [
+        {
+          "date": "2017-04-01",
+          "value": 0
+        },
+        {
+          "date": "2017-04-02",
+          "value": 5.23
+        },
+        {
+          "date": "2017-04-03",
+          "value": -1.54
+        },
+        {
+          "date": "2017-04-04",
+          "value": 2.24
+        },
+        {
+          "date": "2017-04-05",
+          "value": -2.89
+        },
+        {
+          "date": "2017-04-06",
+          "value": -1.42
+        },
+        {
+          "date": "2017-04-07",
+          "value": 3.46
+        }
+      ]
+    },
+    "dailyRetracementTrend": {
+      "fund": [
+        {
+          "date": "2017-04-01",
+          "value": 0
+        },
+        {
+          "date": "2017-04-02",
+          "value": 1.23
+        },
+        {
+          "date": "2017-04-03",
+          "value": 2.54
+        },
+        {
+          "date": "2017-04-04",
+          "value": -0.24
+        },
+        {
+          "date": "2017-04-05",
+          "value": -1.89
+        },
+        {
+          "date": "2017-04-06",
+          "value": 1.42
+        },
+        {
+          "date": "2017-04-07",
+          "value": 2.46
+        }
+      ],
+      "base": [
+        {
+          "date": "2017-04-01",
+          "value": 0
+        },
+        {
+          "date": "2017-04-02",
+          "value": 5.23
+        },
+        {
+          "date": "2017-04-03",
+          "value": -1.54
+        },
+        {
+          "date": "2017-04-04",
+          "value": 2.24
+        },
+        {
+          "date": "2017-04-05",
+          "value": -2.89
+        },
+        {
+          "date": "2017-04-06",
+          "value": -1.42
+        },
+        {
+          "date": "2017-04-07",
+          "value": 3.46
+        }
+      ]
+    },
+    "volatilityTrend": {
+      "fund": [
+        {
+          "date": "2017-04-01",
+          "value": 0
+        },
+        {
+          "date": "2017-04-02",
+          "value": 1.23
+        },
+        {
+          "date": "2017-04-03",
+          "value": 2.54
+        },
+        {
+          "date": "2017-04-04",
+          "value": -0.24
+        },
+        {
+          "date": "2017-04-05",
+          "value": -1.89
+        },
+        {
+          "date": "2017-04-06",
+          "value": 1.42
+        },
+        {
+          "date": "2017-04-07",
+          "value": 2.46
+        }
+      ],
+      "base": [
+        {
+          "date": "2017-04-01",
+          "value": 0
+        },
+        {
+          "date": "2017-04-02",
+          "value": 5.23
+        },
+        {
+          "date": "2017-04-03",
+          "value": -1.54
+        },
+        {
+          "date": "2017-04-04",
+          "value": 2.24
+        },
+        {
+          "date": "2017-04-05",
+          "value": -2.89
+        },
+        {
+          "date": "2017-04-06",
+          "value": -1.42
+        },
+        {
+          "date": "2017-04-07",
+          "value": 3.46
+        }
+      ]
+    },
+    "correlationCoefficientTable": [
+      {
+        "fund1": "000001 华夏成长",
+        "fund2": "000003 不知名",
+        "value": 72.51
+      },
+      {
+        "fund1": "000001 华夏成长",
+        "fund2": "000004 不知名2",
+        "value": 46.26
+      }
+    ],
+    "styleAttributionProfit": [
+      {
+        "field": "field-1",
+        "value": 24.34
+      },
+      {
+        "field": "field-2",
+        "value": 10.49
+      },
+      {
+        "field": "field-3",
+        "value": 83.24
+      },
+      {
+        "field": "field-4",
+        "value": 42.29
+      },
+      {
+        "field": "field-5",
+        "value": -14.29
+      }
+    ],
+    "styleAttributionRisk": [
+      {
+        "field": "field-1",
+        "value": 24.34
+      },
+      {
+        "field": "field-2",
+        "value": 10.49
+      },
+      {
+        "field": "field-3",
+        "value": 83.24
+      },
+      {
+        "field": "field-4",
+        "value": 42.29
+      },
+      {
+        "field": "field-5",
+        "value": -14.29
+      }
+    ],
+    "industryAttributionProfit": [
+      {
+        "field": "field-1",
+        "value": 24.34
+      },
+      {
+        "field": "field-2",
+        "value": 10.49
+      },
+      {
+        "field": "field-3",
+        "value": 83.24
+      },
+      {
+        "field": "field-4",
+        "value": 42.29
+      },
+      {
+        "field": "field-5",
+        "value": -14.29
+      }
+    ],
+    "industryAttributionRisk": [
+      {
+        "field": "field-1",
+        "value": 24.34
+      },
+      {
+        "field": "field-2",
+        "value": 10.49
+      },
+      {
+        "field": "field-3",
+        "value": 83.24
+      },
+      {
+        "field": "field-4",
+        "value": 42.29
+      },
+      {
+        "field": "field-5",
+        "value": -14.29
+      }
+    ],
+    "varietyAttribution": [
+      {
+        "field": "field-1",
+        "value": 24.34
+      },
+      {
+        "field": "field-2",
+        "value": 10.49
+      },
+      {
+        "field": "field-3",
+        "value": 83.24
+      },
+      {
+        "field": "field-4",
+        "value": 42.29
+      },
+      {
+        "field": "field-5",
+        "value": -14.29
+      }
+    ],
+    "brisonAttributionStock": [
+      {
+        "field": "field-1",
+        "value": 24.34
+      },
+      {
+        "field": "field-2",
+        "value": 10.49
+      },
+      {
+        "field": "field-3",
+        "value": 83.24
+      },
+      {
+        "field": "field-4",
+        "value": 42.29
+      },
+      {
+        "field": "field-5",
+        "value": -14.29
+      }
+    ],
+    "brisonAttributionBond": [
+      {
+        "field": "field-1",
+        "value": 24.34
+      },
+      {
+        "field": "field-2",
+        "value": 10.49
+      },
+      {
+        "field": "field-3",
+        "value": 83.24
+      },
+      {
+        "field": "field-4",
+        "value": 42.29
+      },
+      {
+        "field": "field-5",
+        "value": -14.29
+      }
+    ]
+  }
 }

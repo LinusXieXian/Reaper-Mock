@@ -60,5 +60,6 @@
   "/api/company/:id/industry-attribution/profit": "/field-value",
   "/api/company/:id/industry-attribution/risk": "/field-value",
 
+  "/api/combination/:id/backtest": "/combination-report",
   "/api/combination": "/combination"
 }
