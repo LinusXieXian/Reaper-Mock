@@ -1,5 +1,7 @@
 {
 
+  "/api/user": "/user",
+
   "/api/fund/search?:request": "/funds",
 
   "/api/fund/:id/unit-net-value": "/date-value",
@@ -32,11 +34,10 @@
   "/api/fund/:id/variety-attribution": "/field-value",
   "/api/fund/:id/brison-attribution/stock": "/field-value",
   "/api/fund/:id/brison-attribution/bond": "/field-value",
-  "/api/fund/:id/choose-time": "/data-field-value",
-  "/api/fund/:id/choose-stock": "/data-field-value",
+  "/api/fund/:id/choose-time-stock": "/data-field-value",
   "/api/fund/:id/fund-performance": "/fund-performance",
   "/api/fund/:id/manager-performance": "/manager-performance",
-  "/api/fund/:id/position-network": "/network",
+  "/api/fund/:id/position-network": "/fund-network",
   "/api/fund/:id/public-opinion": "/public-opinion",
 
   "/api/manager/:id/ability": "/manager-ability",
@@ -47,7 +48,7 @@
   "/api/manager/:id/fund-returns": "/manager-returns",
   "/api/manager/:id/fund-performance": "/fund-performance",
   "/api/manager/:id/manager-performance": "/manager-performance",
-  "/api/manager/:id/social-network": "/network",
+  "/api/manager/:id/social-network": "/manager-network",
   "/api/manager/:id": "/manager",
 
   "/api/company/:id/fund-performance": "/fund-performance",

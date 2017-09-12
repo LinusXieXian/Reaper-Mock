@@ -11,6 +11,8 @@ Install Node & npm
 
 ### Api
 
+- `/api/user`
+
 - `/api/fund/search?{query}`
 - `/api/fund/{code}`
 - `/api/fund/{code}/name`
@@ -42,8 +44,7 @@ Install Node & npm
 - `/api/fund/{code}/variety-attribution`
 - `/api/fund/{code}/brison-attribution/stock`
 - `/api/fund/{code}/brison-attribution/bond`
-- `/api/fund/{code}/choose-time`
-- `/api/fund/{code}/choose-stock`
+- `/api/fund/{code}/choose-time-stock`
 - `/api/fund/{code}/fund-performance`
 - `/api/fund/{code}/manager-performance`
 - `/api/fund/{code}/public-opinion`

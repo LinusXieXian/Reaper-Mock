@@ -1,4 +1,8 @@
 {
+  "user": {
+    "id": 1,
+    "username": "Sorumi"
+  },
   "funds": {
     "page": 1,
     "size": 10,
@@ -714,79 +718,40 @@
       }
     ]
   },
-  "network": {
-    "categories": [
-      {
-        "name": "HTMLElement"
-      },
-      {
-        "name": "WebGL"
-      },
-      {
-        "name": "SVG"
-      },
-      {
-        "name": "CSS"
-      },
-      {
-        "name": "Other"
-      }
-    ],
+  "fund-network": {
     "nodes": [
       {
         "name": "AnalyserNode",
-        "value": 1,
-        "category": 0
       },
       {
         "name": "AudioNode",
-        "value": 1,
-        "category": 0
       },
       {
         "name": "Uint8Array",
-        "value": 1,
-        "category": 1
       },
       {
         "name": "Float32Array",
-        "value": 1,
-        "category": 1
       },
       {
         "name": "ArrayBuffer",
-        "value": 1,
-        "category": 1
       },
       {
         "name": "EntityReference",
-        "value": 1,
-        "category": 2
       },
       {
         "name": "EntryArray",
-        "value": 1,
-        "category": 2
       },
       {
         "name": "HTMLFormElement",
-        "value": 1,
-        "category": 3
       },
       {
         "name": "ValidityState",
-        "value": 1,
-        "category": 4
       },
       {
         "name": "HTMLCollection",
-        "value": 1,
-        "category": 4
       },
       {
         "name": "XSLTProcessor",
-        "value": 1,
-        "category": 4
       }
     ],
     "links": [
@@ -839,6 +804,105 @@
         "source": 10,
         "target": 5,
         "value": 4
+      }
+    ]
+  },
+  "manager-network": {
+    "nodes": [
+      {
+        "name": "AnalyserNode",
+      },
+      {
+        "name": "AudioNode",
+      },
+      {
+        "name": "Uint8Array",
+      },
+      {
+        "name": "Float32Array",
+      },
+      {
+        "name": "ArrayBuffer",
+      },
+      {
+        "name": "EntityReference",
+      },
+      {
+        "name": "EntryArray",
+      },
+      {
+        "name": "HTMLFormElement",
+      },
+      {
+        "name": "ValidityState",
+      },
+      {
+        "name": "HTMLCollection",
+      },
+      {
+        "name": "XSLTProcessor",
+      }
+    ],
+    "links": [
+      {
+        "source": 0,
+        "target": 1,
+        "days": 11,
+        "times": 3114
+      },
+      {
+        "source": 0,
+        "target": 2,
+        "days": 94,
+        "times": 194
+      },
+      {
+        "source": 0,
+        "target": 3,
+        "days": 39,
+        "times": 8174
+      },
+      {
+        "source": 4,
+        "target": 1,
+        "days": 124,
+        "times": 5918
+      },
+      {
+        "source": 5,
+        "target": 4,
+        "days": 230,
+        "times": 2341
+      },
+      {
+        "source": 6,
+        "target": 7,
+        "days": 41,
+        "times": 817
+      },
+      {
+        "source": 6,
+        "target": 8,
+        "days": 491,
+        "times": 3914
+      },
+      {
+        "source": 9,
+        "target": 3,
+        "days": 91,
+        "times": 1943
+      },
+      {
+        "source": 10,
+        "target": 9,
+        "days": 184,
+        "times": 5714
+      },
+      {
+        "source": 10,
+        "target": 5,
+        "days": 294,
+        "times": 3839
       }
     ]
   },
