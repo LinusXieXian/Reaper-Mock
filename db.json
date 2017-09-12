@@ -721,37 +721,37 @@
   "fund-network": {
     "nodes": [
       {
-        "name": "AnalyserNode",
+        "name": "AnalyserNode"
       },
       {
-        "name": "AudioNode",
+        "name": "AudioNode"
       },
       {
-        "name": "Uint8Array",
+        "name": "Uint8Array"
       },
       {
-        "name": "Float32Array",
+        "name": "Float32Array"
       },
       {
-        "name": "ArrayBuffer",
+        "name": "ArrayBuffer"
       },
       {
-        "name": "EntityReference",
+        "name": "EntityReference"
       },
       {
-        "name": "EntryArray",
+        "name": "EntryArray"
       },
       {
-        "name": "HTMLFormElement",
+        "name": "HTMLFormElement"
       },
       {
-        "name": "ValidityState",
+        "name": "ValidityState"
       },
       {
-        "name": "HTMLCollection",
+        "name": "HTMLCollection"
       },
       {
-        "name": "XSLTProcessor",
+        "name": "XSLTProcessor"
       }
     ],
     "links": [
@@ -810,37 +810,37 @@
   "manager-network": {
     "nodes": [
       {
-        "name": "AnalyserNode",
+        "name": "AnalyserNode"
       },
       {
-        "name": "AudioNode",
+        "name": "AudioNode"
       },
       {
-        "name": "Uint8Array",
+        "name": "Uint8Array"
       },
       {
-        "name": "Float32Array",
+        "name": "Float32Array"
       },
       {
-        "name": "ArrayBuffer",
+        "name": "ArrayBuffer"
       },
       {
-        "name": "EntityReference",
+        "name": "EntityReference"
       },
       {
-        "name": "EntryArray",
+        "name": "EntryArray"
       },
       {
-        "name": "HTMLFormElement",
+        "name": "HTMLFormElement"
       },
       {
-        "name": "ValidityState",
+        "name": "ValidityState"
       },
       {
-        "name": "HTMLCollection",
+        "name": "HTMLCollection"
       },
       {
-        "name": "XSLTProcessor",
+        "name": "XSLTProcessor"
       }
     ],
     "links": [
